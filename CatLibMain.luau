@@ -1663,11 +1663,6 @@ local function createWindow()
 	G2L["62"] = Instance.new("UIScale", G2L["58"]);
 	G2L["62"]["Name"] = [[Scale]];
 	G2L["62"]["Scale"] = 1.25;
-
-
-	-- StarterGui.ScreenGui.Holder.MainFrame.Drag
-	G2L["63"] = Instance.new("UIDragDetector", G2L["3"]);
-	G2L["63"]["Name"] = [[Drag]];
 	return G2L["1"]
 end
 local function createPage()
