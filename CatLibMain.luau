@@ -2516,4 +2516,8 @@ function CatLib:GetExistingWindows()
 	return getgenv()._existingCatLibWindows
 end
 
+function CatLib:GetCoreGui()
+	return CoreGui
+end
+
 return CatLib
